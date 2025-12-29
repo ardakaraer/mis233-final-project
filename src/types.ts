@@ -12,8 +12,4 @@ export const defaultQuery: Partial<MyQuery> = {
 export interface MyDataSourceOptions extends DataSourceJsonData {
   path?: string;
 }
-export type MyQuery = {
-  queryText?: string;
-};
 
-export type MyDataSourceOptions = {};
