@@ -4,7 +4,7 @@ import { QueryEditorProps } from '@grafana/data';
 import { DataSource } from '../datasource';
 
 
-type Props = QueryEditorProps<DataSource, MyQuery, MyDataSourceOptions>;
+type Props = QueryEditorProps<DataSource, any, any>;
 
 export function QueryEditor({ query, onChange, onRunQuery }: Props) {
   const onQueryTextChange = (event: ChangeEvent<HTMLInputElement>) => {
