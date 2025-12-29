@@ -16,9 +16,10 @@ Prerequisites
 How to Run Locally
 This project uses the official Grafana Toolkit Docker development server.
 1. Download the project folder and enter the directory:
+   ```bash
    git clone <https://github.com/ardakaraer/mis233-final-project.git>
    cd mis233-final-project
-
+   ```
 2.  Install dependencies:
     ```bash
     npm install
