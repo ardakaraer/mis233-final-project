@@ -39,9 +39,9 @@ This project uses the official Grafana Toolkit Docker development server.
     Username:`admin`
     Password: `admin`
 6.  Activate the plugin:
-    Connections -> Data Sources on navigation on the left
-    Click Add data source
-    Search for the mis233-final-project and select it
+    Connections -> Data Sources on navigation on the left,
+    Click Add data source,
+    Search for the mis233-final-project and select it,
     Dashboards -> New Dashboard -> click Add Visualization     
     
     
