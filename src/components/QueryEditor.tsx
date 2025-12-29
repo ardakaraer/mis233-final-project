@@ -3,6 +3,11 @@ import { InlineField, Input } from '@grafana/ui';
 import { QueryEditorProps } from '@grafana/data';
 import { DataSource } from '../datasource';
 
+type MyQuery = {
+  queryText?: string;
+};
+
+type MyDataSourceOptions = {};
 
 type Props = QueryEditorProps<DataSource, MyQuery, MyDataSourceOptions>;
 
